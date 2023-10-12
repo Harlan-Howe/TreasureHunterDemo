@@ -1,8 +1,9 @@
 public class Collector
 {
+    private final int MAX_WEIGHT = 100; // constant "final" keyword
+    private final int MAX_OBJECTS = 25; // constant (and style: all caps)
+
     private Treasure[] myLoot;
-    private final int MAX_WEIGHT = 100;
-    private final int MAX_OBJECTS = 25;
     private int numObjects;
 
     public Collector()
